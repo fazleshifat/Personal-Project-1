@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+   }
+   
+   
+   .navul{
+    background-color: black;
+   }
+   
+   
+   .logo{
+    float:left;
+    font-size: 2rem;
+    color: rgb(50, 69, 86);
+    text-transform:lowercase;
+    font-family:cursive;
+    margin-left:40px;
+   }
+   .navul {
+    background-color: black;
+   }
+   .navul ul{
+    margin: 0 300px;
+    float:left;
+    margin-top: 10px;
+   }
+    .navul ul li{
+    display:inline;
+    margin:5px 50px;
+
+    
+    
+    }
+    .navul ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:rgb(42, 67, 67);
+        
+        
+        font-size:0.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .navul ul li a:hover{
+      transition:all 0.3s ease-in-out;
+    transform: scale(1.1,1.1);
+    color: white;
+    background-color: black;
+    padding:8px;
+    margin:default ;
+    }
+   
+   .picture{
+    background-image: url('Image/amit-lahav.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment:local;
+    width:60%;
+    height:500px;
+    text-align: justify;
+    margin: 10px 250px;
+    border-radius: 8px;
+   
+   }
+   .name{
+padding:50px 10px ;
+text-align: center;
+
+}
+
+  .name h1{  
+    color:rgb(28, 24, 24);
+    padding: 10px;
+    margin: 0 350px;
+    width:500px;
+    background-color: rgba(239, 255, 255, 0.694);
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-family:cursive;
+    font-size: 3rem;
+    text-shadow: 4px 5px rgba(18, 15, 15, 0.422);
+    
+    
+  }
+    .name h1:hover{
+       
+    transition:all 0.3s ease-in-out;
+    transform: scale(1.1,1.1);
+   
+   }
+   .name p{
+    width: 300px;
+    margin: 15px 460px;
+    background-color: rgba(239, 255, 255, 0.413);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: calibri;
+    font-weight: 1000;
+    border:3px solid rgba(0, 0, 0, 0.413);
+    color: rgb(0, 0, 0);
+    
+   }
+   .name p:hover{
+    transform: scale(1.1,1.1);
+    border:4px solid rgb(0, 0, 0);
+
+    
+   }
+   
+   .clear{
+    clear: both;
+   }
+   /* .card-body{
+    float: left;
+   } */
+   .card1{
+    width: 300px;
+    height: 380px;
+    margin: 80px 80px;
+    background-color: white;
+    box-shadow:0 0 10px grey;
+    border-radius: 8px;
+   }
+   .card1 img{
+    width: 60%;
+   height: auto;
+   margin:20px 60px 0;
+   border-radius: 50%;
+  
+   }
+   .card1 p{
+    text-align: justify;
+    padding:20px;
+    font-family: Calibri;
+    font-size:1rem ;
+    text-transform: uppercase;
+   }
+   .card1:hover{
+    box-shadow: 0 6px 16px rgba(75, 39, 39, 0.63), 0 8px 16px rgba(45, 29, 29, 0.692);
+transition:all 0.3s ease-in-out;
+transform: scale(1.1,1.1);
+   }
+   .card2{
+    width: 24%;
+    height: 380px;
+    margin-top: -460px;
+    margin-left: 500px;
+    background-color: white;
+    box-shadow:0 0 10px grey;
+    border-radius: 8px;
+    
+   }
+   .card2 img{
+    width: 60%;
+   height: auto;
+   margin:20px 60px 0;
+   border-radius: 50%;
+  
+   }
+   .card2 p{
+    text-align: justify;
+    padding:20px;
+    font-family: Calibri;
+    font-size:1rem ;
+    text-transform: uppercase;
+   }
+   .card2:hover{
+    box-shadow: 0 6px 16px rgba(75, 39, 39, 0.63), 0 8px 16px rgba(45, 29, 29, 0.692);
+transition:all 0.3s ease-in-out;
+transform: scale(1.1,1.1);
+}
+   .card3{
+    width: 24%;
+    height: 380px;
+    margin-top:-380px;
+    margin-left:900px;
+    background-color: white;
+    box-shadow:0 0 10px grey;
+    border-radius: 8px;
+   }
+   .card3 img{
+    width: 60%;
+   height: auto;
+   margin:20px 60px 0;
+   border-radius: 50%;
+  
+   }
+   .card3 p{
+    text-align: justify;
+    padding:20px;
+    font-family: Calibri;
+    font-size:1rem ;
+    text-transform: uppercase;
+   }
+
+   .card3:hover{
+    box-shadow: 0 6px 16px rgba(75, 39, 39, 0.63), 0 8px 16px rgba(45, 29, 29, 0.692);
+transition:all 0.3s ease-in-out;
+transform: scale(1.1,1.1);
+}
+
+   .footer h5{
+    padding-top:20px;
+    text-transform: uppercase;
+    font-size:0.7rem;
+    font-family: Calibri;
+    text-align: center;
+    padding-top: 70px;
+   }
+
+   
